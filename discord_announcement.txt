@@ -1,0 +1,21 @@
+📸 **KarnySnap** — moje malutkie narzedzie do zrzutow ekranu, ale zrobione po swojemu
+
+Miałem dość ciężkich snippingów, więc napisałem własny rezydent Print Screen w czystym C, celowany pod mój stary sprzęt (Core 2 Duo, 2GB RAM, Win7 SP1) — ale działa też na Win10/11, 32 i 64-bit.
+
+**Co robi:**
+🖱️ Print Screen -> domyślnie wchodzisz w tryb AOI: ekran się przyciemnia, a to co zaznaczysz myszką zostaje jasne, więc widzisz dokładnie co wytniesz
+🖥️ drugi tryb to zwykły zrzut całego ekranu, jeden klik
+⎋ ESC (albo ponowny Print Screen) w trakcie zaznaczania = anulujesz, wracasz do roboty
+💾 zapis jako PNG / JPG / BMP (do wyboru z traya) + od razu w schowku (Ctrl+V)
+📁 domyślny folder to Pulpit\Screenshots, ale możesz go zmienić z menu
+🪶 zero GUI, zero okna, tylko ikonka w trayu — w spoczynku bierze ok. 1.5 MB RAM
+
+Kod jest w 100% otwarty, MIT, jeden plik .c, buduje się nawet na leciwym GCC. Jest też GitHub Actions, który sam wypluwa gotowe .exe (x86 i x64) przy każdym release.
+
+🔗 GitHub: [LINK_GITHUB]
+🛡️ VirusTotal: [LINK_VIRUSTOTAL]
+📦 Gotowe .exe: zakładka Releases w repo
+
+Feedback, issues i PR-y mile widziane — szczególnie od ludzi z retro-sprzętem, bo to głównie pod niego to pisałem 😄
+
+#KarnySnap #OpenSource #Windows
